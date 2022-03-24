@@ -1,5 +1,5 @@
 ---
-Checks: '*,-fuchsia-*,-google-*,-zircon-*,-abseil-*,-modernize-*, readability-*,-llvm-*,-llvmlibc-*'
+Checks: 'clang-analyzer-*,misc-*,google-*,performance-*,readability-*'
 WarningsAsErrors: '*'
 HeaderFilterRegex: ''
 FormatStyle: none
