@@ -1,7 +1,6 @@
-import random
 import csv
 import os
-
+import random
 
 names_of_sets = ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10']
 methods = ['make_heap', 'extract_min', 'min', 'insert', 'union', 'remove_heap']
@@ -22,12 +21,12 @@ for method in methods:
             data = []
             data.clear()
 
-            for i in range(number_of_elements):
-                data.append(random.randint(0, border))
+            for _ in range(number_of_elements):
+                data.append((random.randint(0, border), random.randint(0, border)))
 
             file = open(path_to_file, "w")
 
             with file:
                 writer = csv.writer(file)
-                writer.writerow(data)
+                writer.writerows(data)
                 
