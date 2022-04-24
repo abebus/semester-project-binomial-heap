@@ -23,11 +23,9 @@
 | Комелина София |        10 |     софа |
 
 
-## Структура проекта
+## Google Drive
 
-_Описание основных частей семестрового проекта._
-
-**Пример**. Проект состоит из следующих частей:
+https://drive.google.com/drive/folders/1kUNio3z1i3jwlT8Ak_fVOf_0Ziy4kDPC?usp=sharing
 
 
 
