@@ -4,7 +4,7 @@ import random
 
 names_of_sets = ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10']
 methods = ['make_heap', 'extract_min', 'min', 'insert', 'union', 'remove_heap']
-number_of_elements_list = [100,  500, 1000]
+number_of_elements_list = [100,  500, 1000, 5000, 75000, 100000, 250000, 500000]
 border = 10 ** 9
 
 path_to_dataset = os.path.join(os.getcwd(), "data")
@@ -23,8 +23,8 @@ for method in methods:
 
             for _ in range(number_of_elements):
                 data.append((random.randint(0, border), random.randint(0, border)))
-
-            file = open(path_to_file, "w")
+                
+            file = open(path_to_file, "w", newline='')
 
             with file:
                 writer = csv.writer(file)
